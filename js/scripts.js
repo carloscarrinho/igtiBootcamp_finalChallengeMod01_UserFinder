@@ -116,11 +116,11 @@ function updateStats() {
   
   // atualizando a média das idades dos usuários da lista
   agesAvg = sumOfAges / allUsers.length;
-  agesfAvgElement.textContent = `Média das idades: ${agesAvg} anos`;
+  agesfAvgElement.textContent = `Média das idades: ${formatNumber(agesAvg)} anos`;
 }
 
 function formatNumber(number) {
-  return numberFormat.format(number);
+  return numberFormat.format(number.toFixed(2));
 }
 
 function searchByEnter () {
