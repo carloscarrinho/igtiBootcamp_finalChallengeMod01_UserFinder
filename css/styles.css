@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  margin: 25px 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.container form {
+  width: 100%;
+  padding: 20px;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.container input {
+  width: 50%;
+  padding: 15px 20px;
+  border: 0;
+  border-bottom: 5px solid #0af;
+  margin-right: 20px;
+  color: #555
+}
+
+.container button {
+  background-color: #0af;
+  width: 150px;
+  padding: 15px 20px;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 700;
+  box-shadow: 3px 1px 1px rgba(0, 0, 0, .5);
+  transition: opacity .2s;
+}
+.container button:hover {
+  opacity: .65;
+}
+.container button:disabled {
+  background-color: gray;
+  color: #555;
+}
+
+.container section {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.container section h2 {
+  width: 100%;
+  padding: 25px 25px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.container section #users {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container section .user-card {
+  background-color: #fff;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  box-shadow: 3px 1px 1px rgba(0, 0, 0, .3);
+  transition: background-color .2s;
+}
+.container section .user-card:hover {
+  background-color: #ddf;
+}
+
+.container section .user-card img {
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container .stats {
+  width: 100%;
+  padding: 10px 25px;
+  display: flex;
+  flex-direction: column;
+  line-height: 2em;
+}
+.container .stats li {
+  font-size: 1.25em;
+  text-align: center;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Pesquisa de Usuários</title>
+</head>
+<body>
+  <h1>Pesquisa de Usuários</h1>
+  <div class="container">
+    <form>
+      <input type="text" id="searchInput">
+      <button type="submit" id="submitButton">Buscar</button>
+    </form>
+    
+    <section >
+      <h2 id="usersQty"></h2>
+      <div id="users"></div>
+    </section>
+
+    <section>
+      <h2>Estatísticas</h2>
+      <ul id="stats" class="stats">
+        <li id="maleUsers"></li>
+        <li id="femaleUsers"></li>
+        <li id="sumOfAges"></li>
+        <li id="agesAvg"></li>
+      </ul>
+    </section>
+
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
