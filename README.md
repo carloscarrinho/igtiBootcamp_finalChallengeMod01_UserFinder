@@ -17,3 +17,5 @@ This allowed to practice:
 * Use ES6+ resources (map, filter, reduce, arrow functions, and more);
 
 ## Output
+
+![Challenge Output](https://github.com/carloscarrinho/igtiBootcamp_finalChallengeMod01_UserFinder/blob/master/finalChallengeMod01.gif)
